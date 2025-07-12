@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Adithya - Portfolio</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="main.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	</head>
+	<body>
+		<!-- Navigation -->
+		<nav class="navbar">
+			<div class="nav-container">
+				<div class="nav-logo">
+					<h2>MK</h2>
+				</div>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="#home" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#about" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#skills" class="nav-link">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a href="#projects" class="nav-link">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">Contact</a>
+					</li>
+				</ul>
+				<div class="nav-toggle" id="mobile-menu">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Three.js Canvas Container -->
+		<div id="threejs-container"></div>
+
+		<!-- Main Content -->
+		<main class="main-content">
+			<!-- Hero Section -->
+			<section id="home" class="hero">
+				<div class="hero-content">
+					<h1 class="hero-title">Hi, I'm <span class="highlight">Kartik Mada</span></h1>
+					<p class="hero-subtitle">Full Stack Developer & 3D Graphics Enthusiast</p>
+					<p class="hero-description">Creating immersive digital experiences with modern web technologies</p>
+					<div class="hero-buttons">
+						<a href="#projects" class="btn btn-primary">View My Work</a>
+						<a href="#contact" class="btn btn-secondary">Get In Touch</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- About Section -->
+			<section id="about" class="about">
+				<div class="container">
+					<h2 class="section-title">About Me</h2>
+					<div class="about-content">
+						<div class="about-text">
+							<p>I'm a passionate developer with expertise in web technologies and 3D graphics. I love creating interactive experiences that combine beautiful design with cutting-edge technology.</p>
+							<p>With experience in Three.js, React, Node.js, and modern web frameworks, I build applications that are both visually stunning and highly functional.</p>
+							<div class="about-stats">
+								<div class="stat">
+									<h3>3+</h3>
+									<p>Years Experience</p>
+								</div>
+								<div class="stat">
+									<h3>50+</h3>
+									<p>Projects Completed</p>
+								</div>
+								<div class="stat">
+									<h3>100%</h3>
+									<p>Client Satisfaction</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Skills Section -->
+			<section id="skills" class="skills">
+				<div class="container">
+					<h2 class="section-title">Skills & Technologies</h2>
+					<div class="skills-grid">
+						<div class="skill-card">
+							<i class="fab fa-js-square"></i>
+							<h3>JavaScript</h3>
+							<p>ES6+, TypeScript, Node.js</p>
+						</div>
+						<div class="skill-card">
+							<i class="fab fa-react"></i>
+							<h3>React</h3>
+							<p>Hooks, Context, Redux</p>
+						</div>
+						<div class="skill-card">
+							<i class="fas fa-cube"></i>
+							<h3>Three.js</h3>
+							<p>3D Graphics, WebGL, Shaders</p>
+						</div>
+						<div class="skill-card">
+							<i class="fab fa-python"></i>
+							<h3>Python</h3>
+							<p>Django, Flask, FastAPI</p>
+						</div>
+						<div class="skill-card">
+							<i class="fas fa-database"></i>
+							<h3>Database</h3>
+							<p>MongoDB, PostgreSQL, MySQL</p>
+						</div>
+						<div class="skill-card">
+							<i class="fab fa-aws"></i>
+							<h3>Cloud</h3>
+							<p>AWS, Docker, Kubernetes</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Projects Section -->
+			<section id="projects" class="projects">
+				<div class="container">
+					<h2 class="section-title">Featured Projects</h2>
+					<div class="projects-grid">
+						<div class="project-card">
+							<div class="project-image">
+								<img src="https://via.placeholder.com/400x250" alt="Project 1">
+							</div>
+							<div class="project-content">
+								<h3>3D Portfolio Website</h3>
+								<p>Interactive portfolio built with Three.js featuring dynamic lighting and 3D models.</p>
+								<div class="project-tech">
+									<span class="tech-tag">Three.js</span>
+									<span class="tech-tag">JavaScript</span>
+									<span class="tech-tag">WebGL</span>
+								</div>
+								<div class="project-links">
+									<a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+									<a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+								</div>
+							</div>
+						</div>
+						<div class="project-card">
+							<div class="project-image">
+								<img src="https://via.placeholder.com/400x250" alt="Project 2">
+							</div>
+							<div class="project-content">
+								<h3>E-commerce Platform</h3>
+								<p>Full-stack e-commerce application with modern UI and secure payment integration.</p>
+								<div class="project-tech">
+									<span class="tech-tag">React</span>
+									<span class="tech-tag">Node.js</span>
+									<span class="tech-tag">MongoDB</span>
+								</div>
+								<div class="project-links">
+									<a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+									<a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+								</div>
+							</div>
+						</div>
+						<div class="project-card">
+							<div class="project-image">
+								<img src="https://via.placeholder.com/400x250" alt="Project 3">
+							</div>
+							<div class="project-content">
+								<h3>Data Visualization Dashboard</h3>
+								<p>Interactive dashboard for real-time data visualization with beautiful charts and graphs.</p>
+								<div class="project-tech">
+									<span class="tech-tag">D3.js</span>
+									<span class="tech-tag">Python</span>
+									<span class="tech-tag">FastAPI</span>
+								</div>
+								<div class="project-links">
+									<a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+									<a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Contact Section -->
+			<section id="contact" class="contact">
+				<div class="container">
+					<h2 class="section-title">Get In Touch</h2>
+					<div class="contact-content">
+						<div class="contact-info">
+							<h3>Let's work together!</h3>
+							<p>I'm always interested in new opportunities and exciting projects. Feel free to reach out!</p>
+							<div class="contact-methods">
+								<div class="contact-method">
+									<i class="fas fa-envelope"></i>
+									<span>kartik_mada@example.com</span>
+								</div>
+								<div class="contact-method">
+									<i class="fas fa-phone"></i>
+									<span>+1 (555) 123-4567</span>
+								</div>
+								<div class="contact-method">
+									<i class="fas fa-map-marker-alt"></i>
+									<span>San Francisco, CA</span>
+								</div>
+							</div>
+							<div class="social-links">
+								<a href="#" class="social-link"><i class="fab fa-github"></i></a>
+								<a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+								<a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+								<a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+						<form class="contact-form">
+							<div class="form-group">
+								<input type="text" id="name" name="name" placeholder="Your Name" required>
+							</div>
+							<div class="form-group">
+								<input type="email" id="email" name="email" placeholder="Your Email" required>
+							</div>
+							<div class="form-group">
+								<input type="text" id="subject" name="subject" placeholder="Subject" required>
+							</div>
+							<div class="form-group">
+								<textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">Send Message</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<p>&copy; 2024 Adithya. All rights reserved.</p>
+			</div>
+		</footer>
+
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "../build/three.module.js",
+					"three/addons/": "./jsm/"
+				}
+			}
+		</script>
+
+		<script type="module">
+
+			import * as THREE from 'three';
+
+			import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
+
+			import { PLYLoader } from 'three/addons/loaders/PLYLoader.js';
+			import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+			let renderer, scene, camera;
+
+			let spotLight, lightHelper;
+
+			init();
+
+			function init() {
+
+			renderer = new THREE.WebGLRenderer( { antialias: true, alpha: true } );
+			renderer.setPixelRatio( window.devicePixelRatio );
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			renderer.setAnimationLoop( animate );
+			
+			// Append to the threejs-container instead of body
+			const container = document.getElementById('threejs-container');
+			container.appendChild( renderer.domElement );
+
+				renderer.shadowMap.enabled = true;
+				renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+				renderer.toneMapping = THREE.ACESFilmicToneMapping;
+				renderer.toneMappingExposure = 1;
+
+				scene = new THREE.Scene();
+
+				camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 0.1, 100 );
+				camera.position.set( 7, 4, 1 );
+
+				const controls = new OrbitControls( camera, renderer.domElement );
+				controls.minDistance = 2;
+				controls.maxDistance = 10;
+				controls.maxPolarAngle = Math.PI / 2;
+				controls.target.set( 0, 1, 0 );
+				controls.update();
+
+				const ambient = new THREE.HemisphereLight( 0xffffff, 0x8d8d8d, 0.15 );
+				scene.add( ambient );
+
+				const loader = new THREE.TextureLoader().setPath( 'textures/' );
+				const filenames = [ 'disturb.jpg', 'colors.png', 'uv_grid_opengl.jpg' ];
+
+				const textures = { none: null };
+
+				for ( let i = 0; i < filenames.length; i ++ ) {
+
+					const filename = filenames[ i ];
+
+					const texture = loader.load( filename );
+					texture.minFilter = THREE.LinearFilter;
+					texture.magFilter = THREE.LinearFilter;
+					texture.generateMipmaps = false;
+					texture.colorSpace = THREE.SRGBColorSpace;
+
+					textures[ filename ] = texture;
+
+				}
+
+				spotLight = new THREE.SpotLight( 0xffffff, 100 );
+				spotLight.position.set( 2.5, 5, 2.5 );
+				spotLight.angle = Math.PI / 6;
+				spotLight.penumbra = 1;
+				spotLight.decay = 2;
+				spotLight.distance = 0;
+				spotLight.map = textures[ 'disturb.jpg' ];
+
+				spotLight.castShadow = true;
+				spotLight.shadow.mapSize.width = 1024;
+				spotLight.shadow.mapSize.height = 1024;
+				spotLight.shadow.camera.near = 1;
+				spotLight.shadow.camera.far = 10;
+				spotLight.shadow.focus = 1;
+				scene.add( spotLight );
+
+				// lightHelper = new THREE.SpotLightHelper( spotLight );
+				// scene.add( lightHelper );
+
+				//
+
+				const geometry = new THREE.PlaneGeometry( 200, 200 );
+				const material = new THREE.MeshLambertMaterial( { color: 0xbcbcbc } );
+
+				const mesh = new THREE.Mesh( geometry, material );
+				mesh.position.set( 0, - 1, 0 );
+				mesh.rotation.x = - Math.PI / 2;
+				mesh.receiveShadow = true;
+				scene.add( mesh );
+
+				//
+
+				new PLYLoader().load( 'models/ply/binary/Lucy100k.ply', function ( geometry ) {
+
+					geometry.scale( 0.0024, 0.0024, 0.0024 );
+					geometry.computeVertexNormals();
+
+					const material = new THREE.MeshLambertMaterial();
+
+					const mesh = new THREE.Mesh( geometry, material );
+					mesh.rotation.y = - Math.PI / 2;
+					mesh.position.y = 0.8;
+					mesh.castShadow = true;
+					mesh.receiveShadow = true;
+					scene.add( mesh );
+
+				} );
+
+				window.addEventListener( 'resize', onWindowResize );
+
+				// GUI
+
+				const gui = new GUI();
+
+				const params = {
+					map: textures[ 'disturb.jpg' ],
+					color: spotLight.color.getHex(),
+					intensity: spotLight.intensity,
+					distance: spotLight.distance,
+					angle: spotLight.angle,
+					penumbra: spotLight.penumbra,
+					decay: spotLight.decay,
+					focus: spotLight.shadow.focus,
+					shadows: true
+				};
+
+				gui.add( params, 'map', textures ).onChange( function ( val ) {
+
+					spotLight.map = val;
+
+				} );
+
+				gui.addColor( params, 'color' ).onChange( function ( val ) {
+
+					spotLight.color.setHex( val );
+
+				} );
+
+				gui.add( params, 'intensity', 0, 500 ).onChange( function ( val ) {
+
+					spotLight.intensity = val;
+
+				} );
+
+
+				gui.add( params, 'distance', 0, 20 ).onChange( function ( val ) {
+
+					spotLight.distance = val;
+
+				} );
+
+				gui.add( params, 'angle', 0, Math.PI / 3 ).onChange( function ( val ) {
+
+					spotLight.angle = val;
+
+				} );
+
+				gui.add( params, 'penumbra', 0, 1 ).onChange( function ( val ) {
+
+					spotLight.penumbra = val;
+
+				} );
+
+				gui.add( params, 'decay', 1, 2 ).onChange( function ( val ) {
+
+					spotLight.decay = val;
+
+				} );
+
+				gui.add( params, 'focus', 0, 1 ).onChange( function ( val ) {
+
+					spotLight.shadow.focus = val;
+
+				} );
+
+
+				gui.add( params, 'shadows' ).onChange( function ( val ) {
+
+					renderer.shadowMap.enabled = val;
+
+					scene.traverse( function ( child ) {
+
+						if ( child.material ) {
+
+							child.material.needsUpdate = true;
+
+						}
+
+					} );
+
+				} );
+
+				gui.open();
+
+			}
+
+			function onWindowResize() {
+
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix();
+
+				renderer.setSize( window.innerWidth, window.innerHeight );
+
+			}
+
+			function animate() {
+
+				const time = performance.now() / 3000;
+
+				spotLight.position.x = Math.cos( time ) * 2.5;
+				spotLight.position.z = Math.sin( time ) * 2.5;
+
+				// lightHelper.update();
+
+				renderer.render( scene, camera );
+
+			}
+
+		</script>
+
+	</body>
+
+</html>
