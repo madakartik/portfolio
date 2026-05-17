@@ -352,7 +352,7 @@
 
 				new PLYLoader().load( 'models/ply/binary/doom.ply', function ( geometry ) {
 
-					geometry.scale( 1.0, 1.0, 1.0 );
+					geometry.scale( 0.004, 0.004, 0.004 );
 					geometry.computeVertexNormals();
 
 					const material = new THREE.MeshStandardMaterial( {
